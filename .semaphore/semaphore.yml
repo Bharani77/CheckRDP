@@ -11,3 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - 'curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T SN9p4agJ1SD3USkyBUvSHl fvPknb9gXAeiiEmPL7C27R eu.relay.tunshell.com'
+      agent:
+        machine:
+          type: e1-standard-4
+          os_image: ubuntu2004
