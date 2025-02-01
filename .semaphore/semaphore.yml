@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T Bhq9Y9K7sxufCCFCCDl0wa qTuNsyBIFC7cNyB3TsyahC eu.relay.tunshell.com'
+            - 'curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T EBhDZJJRfKWi9mHWvKcvZ7 xtQSJtq4g9MbFC0WGKh9sl eu.relay.tunshell.com'
       agent:
         machine:
           type: e1-standard-2
