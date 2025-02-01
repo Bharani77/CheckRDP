@@ -13,5 +13,5 @@ blocks:
             - 'curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T EBhDZJJRfKWi9mHWvKcvZ7 xtQSJtq4g9MbFC0WGKh9sl eu.relay.tunshell.com'
       agent:
         machine:
-          type: e1-standard-8
+          type: e1-standard-4
           os_image: ubuntu2004
